@@ -1,10 +1,12 @@
-#include "Employee.hpp"
-#include "Person.hpp"
-#include "Student.hpp"
-#include "University.hpp"
+//#include "Employee.hpp"
+//#include "Person.hpp"
+//#include "Student.hpp"
+//#include "University.hpp"
+#include "University_system.hpp"
+
 
 int main() {
-    // initiate database
+    /*// initiate database
     std::cout << "\nFilling in database...\n";
     Student s1("Danuta", "Kot", "Warszawa", "89873561722", "man", 166735);
     University codersSchool;
@@ -96,4 +98,8 @@ int main() {
     // std::string fileName = "university.csv";
     // codersSchool.exportDatabase(fileName);
     return 0;
+    */
+    University_system us;
+    us.run();
+        
 }
